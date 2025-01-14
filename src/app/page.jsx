@@ -122,7 +122,7 @@ export default function Home() {
 
             <div className="filter-item">
               <label htmlFor="" className="mb-4 font-medium text-sm">
-                Pilih Specialty
+                Cari bedasarkan nama
               </label>
               <input
                 type="text"
