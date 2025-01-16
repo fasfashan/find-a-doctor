@@ -53,7 +53,7 @@ export default function DoctorDetails({ params }) {
     <>
       <div className="bg-primary">
         <div className="max-w-5xl m-auto p-4 flex items-center">
-          <Link href="/" className="text-gray-200 font-light">
+          <Link href="/" className="text-white font-light">
             Home
           </Link>
           <span className="text-white mx-2">/</span>
@@ -61,7 +61,7 @@ export default function DoctorDetails({ params }) {
             Find a Doctor
           </Link>
           <span className="text-white mx-2">/</span>
-          <span className="text-white">{doctor.name}</span>
+          <span className="text-gray-200">{doctor.name}</span>
         </div>
       </div>
       <div className="max-w-5xl gap-4 p-4 grid grid-cols-12 m-auto mt-10">

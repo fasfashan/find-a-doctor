@@ -79,13 +79,11 @@ export default function Home() {
     <>
       <div className="bg-primary">
         <div className="max-w-5xl m-auto p-4 flex items-center">
-          <Link href="/" className="text-gray-200 font-light">
+          <Link href="/" className="text-white ">
             Home
           </Link>
           <span className="text-white mx-2">/</span>
-          <Link href="/" className="text-white">
-            Find a Doctor
-          </Link>
+          <spa className="text-gray-100">Find a Doctor</spa>
         </div>
       </div>
       <div className="max-w-5xl m-auto p-4">
