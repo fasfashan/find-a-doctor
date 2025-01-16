@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="bg-white shadow-md sticky top-0">
         <div className="max-w-5xl m-auto p-4">
           <Link href="/">
-            <Image alt="logo" width={200} height={40} src="/logo.svg" />
+            <Image alt="logo" width={125} height={28} src="/logo.svg" />
           </Link>
         </div>
       </div>

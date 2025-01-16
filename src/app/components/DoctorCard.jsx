@@ -13,7 +13,7 @@ export default function DoctorCard({ doctor }) {
         />
         <div className="flex flex-col gap-2">
           <h2 className="font-bold">{doctor.name}</h2>
-          <p className="font-medium text-xs bg-blue-50 border-blue-300 border px-2 py-1 rounded-md w-fit ">
+          <p className="font-medium text-xs bg-cyan-50 border-primary border px-2 py-1 rounded-md w-fit ">
             {doctor.specialty}
           </p>
         </div>

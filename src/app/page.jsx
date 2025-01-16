@@ -2,14 +2,15 @@
 import doctors from "@/app/data/doctors";
 import DoctorCard from "@/app/components/DoctorCard";
 import { useState, useEffect } from "react";
-import Navbar from "@/app/components/Navbar";
 import Image from "next/image";
-import Breadcumb from "@/app/components/Breadcumb";
+import Link from "next/link";
 
 export default function Home() {
   // Extract unique branches and specialties from doctors data
-  const branches = [...new Set(doctors.map((doctor) => doctor.branch))];
-  const specialtys = [...new Set(doctors.map((doctor) => doctor.specialty))];
+  const branches = [...new Set(doctors.map((doctor) => doctor.branch))].sort();
+  const specialtys = [
+    ...new Set(doctors.map((doctor) => doctor.specialty)),
+  ].sort();
 
   // State untuk filter
   const [filters, setFilters] = useState({
@@ -19,9 +20,13 @@ export default function Home() {
   });
 
   // State untuk data asli, data yang sudah difilter, dan status data kosong
-  const [originalData, setOriginalData] = useState(doctors);
-  const [filteredData, setFilteredData] = useState(doctors);
-  const [isNoData, setIsNoData] = useState(false); // Tambahkan state ini
+  const [originalData, setOriginalData] = useState(
+    [...doctors].sort((a, b) => a.name.localeCompare(b.name))
+  );
+  const [filteredData, setFilteredData] = useState(
+    [...doctors].sort((a, b) => a.name.localeCompare(b.name))
+  );
+  const [isNoData, setIsNoData] = useState(false);
 
   // Function untuk handle perubahan filter
   const handleFilterChange = (e) => {
@@ -58,8 +63,11 @@ export default function Home() {
       );
     }
 
+    // Sort the filtered results alphabetically by name
+    result.sort((a, b) => a.name.localeCompare(b.name));
+
     setFilteredData(result);
-    setIsNoData(result.length === 0); // Update status data kosong
+    setIsNoData(result.length === 0);
   };
 
   // Gunakan useEffect untuk menerapkan filter setiap kali filters berubah
@@ -69,13 +77,23 @@ export default function Home() {
 
   return (
     <>
-      <Breadcumb divider="/" />
+      <div className="bg-primary">
+        <div className="max-w-5xl m-auto p-4 flex items-center">
+          <Link href="/" className="text-gray-200 font-light">
+            Home
+          </Link>
+          <span className="text-white mx-2">/</span>
+          <Link href="/" className="text-white">
+            Find a Doctor
+          </Link>
+        </div>
+      </div>
       <div className="max-w-5xl m-auto p-4">
         {/* Filter Section */}
         <div className="grid grid-cols-12 py-10 gap-8 mb-10 items-center">
           <div className="col-span-7 space-y-4">
             <h1 className="mb-8 font-medium text-4xl tracking-tighter ">
-              Find a doctor at Murni Hospital
+              Find a doctor at MurniCare Hospital
             </h1>
             <div className="flex items-center gap-4">
               <div className="w-full">
@@ -108,14 +126,11 @@ export default function Home() {
                   className="shadow border minimal round appearance-none rounded text-sm w-full py-2 px-3 mt-2 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
                 >
                   <option value="">Semua Specialty</option>
-                  {specialtys
-                    .slice() // Buat salinan array untuk menghindari mutasi
-                    .sort((a, b) => a.localeCompare(b)) // Mengurutkan A-Z
-                    .map((specialty, index) => (
-                      <option key={index} value={specialty}>
-                        {specialty}
-                      </option>
-                    ))}
+                  {specialtys.map((specialty, index) => (
+                    <option key={index} value={specialty}>
+                      {specialty}
+                    </option>
+                  ))}
                 </select>
               </div>
             </div>
