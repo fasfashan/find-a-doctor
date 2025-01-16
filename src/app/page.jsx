@@ -98,7 +98,7 @@ export default function Home() {
             <div className="flex items-center gap-4">
               <div className="w-full">
                 <label htmlFor="" className="mb-4 font-medium text-sm">
-                  Pilih rumah sakit
+                  Choose hospital
                 </label>
                 <select
                   name="branch"
@@ -106,7 +106,7 @@ export default function Home() {
                   onChange={handleFilterChange}
                   className="shadow minimal appearance-none border rounded text-sm w-full py-2 px-3 mt-2 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
                 >
-                  <option value="">Semua Rumah Sakit</option>
+                  <option value="">All hospital</option>
                   {branches.map((branch, index) => (
                     <option key={index} value={branch}>
                       {branch}
@@ -117,7 +117,7 @@ export default function Home() {
 
               <div className="w-full">
                 <label htmlFor="" className="mb-4 font-medium text-sm">
-                  Pilih Specialty
+                  Choose Specialty
                 </label>
                 <select
                   name="specialty"
@@ -125,7 +125,7 @@ export default function Home() {
                   onChange={handleFilterChange}
                   className="shadow border minimal round appearance-none rounded text-sm w-full py-2 px-3 mt-2 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
                 >
-                  <option value="">Semua Specialty</option>
+                  <option value="">All Specialty</option>
                   {specialtys.map((specialty, index) => (
                     <option key={index} value={specialty}>
                       {specialty}
@@ -137,14 +137,14 @@ export default function Home() {
 
             <div className="filter-item">
               <label htmlFor="" className="mb-4 font-medium text-sm">
-                Cari bedasarkan nama
+                Search by name
               </label>
               <input
                 type="text"
                 name="doctorName"
                 value={filters.doctorName}
                 onChange={handleFilterChange}
-                placeholder="Cari nama dokter..."
+                placeholder="Enter doctor's name"
                 className="shadow border round rounded mt-2 text-sm w-full py-2 px-3 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
               />
             </div>

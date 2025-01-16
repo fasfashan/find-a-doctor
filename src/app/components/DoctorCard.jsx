@@ -39,7 +39,7 @@ export default function DoctorCard({ doctor }) {
         className="w-full font-semibold text-center bg-white py-2 rounded-md shadow-sm border border-neutral-300"
         href={`/doctors/${doctor.id}`}
       >
-        Lihat jadwal
+        See profile
       </Link>
     </div>
   );

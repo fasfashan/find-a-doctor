@@ -80,7 +80,7 @@ export default function DoctorDetails({ params }) {
               <h1 className="text-2xl font-semibold">{doctor.name}</h1>
               <div className="space-y-2">
                 <p className="font-medium text-sm">
-                  Poli: <span className="text-gray-500"> {doctor.poli}</span>
+                  Poly: <span className="text-gray-500"> {doctor.poli}</span>
                 </p>
                 <p className="font-medium text-sm">
                   Specialty:{" "}

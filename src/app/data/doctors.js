@@ -1,7 +1,7 @@
 export const doctors = [
   {
     id: 1,
-    name: "Dr. Amanda Watson, Sp.A",
+    name: "dr. Amelia Johnson, M.D",
     specialty: "Neurology",
     schedule: {
       Monday: "14:00 - 17:00",
@@ -17,7 +17,7 @@ export const doctors = [
     background:
       "Formal Education: XYZ University, Informal Education: ABC Training",
     poli: "Neurology",
-    bio: "Dr. Amanda Watson is a highly respected neurologist with over 15 years of experience in the field. She completed her medical degree at XYZ University and further specialized in neurology. Dr. Watson is known for her compassionate care and dedication to her patients. She has published numerous research papers and is actively involved in various neurology conferences and workshops. In her free time, she enjoys reading medical journals and volunteering at local health camps.",
+    bio: "dr. Amanda Watson is a highly respected neurologist with over 15 years of experience in the field. She completed her medical degree at XYZ University and further specialized in neurology. dr. Watson is known for her compassionate care and dedication to her patients. She has published numerous research papers and is actively involved in various neurology conferences and workshops. In her free time, she enjoys reading medical journals and volunteering at local health camps.",
     education: [
       {
         level: "Undergraduate",
@@ -51,7 +51,7 @@ export const doctors = [
   },
   {
     id: 2,
-    name: "Dr. Budi Santoso, Sp.PD",
+    name: "dr. Benjamin Franklin, Ph.D",
     specialty: "Internal Medicine",
     schedule: {
       Monday: "09:00 - 12:00",
@@ -67,7 +67,7 @@ export const doctors = [
     background:
       "Formal Education: University of Indonesia, Informal Education: Singapore General Hospital Training",
     poli: "Internal Medicine",
-    bio: "Dr. Budi Santoso is an experienced internist with a special interest in diabetes and cardiovascular diseases. With over 20 years of practice, he has helped countless patients manage chronic conditions effectively. His patient-centered approach and commitment to continuous learning have made him a trusted healthcare provider.",
+    bio: "dr. Budi Santoso is an experienced internist with a special interest in diabetes and cardiovascular diseases. With over 20 years of practice, he has helped countless patients manage chronic conditions effectively. His patient-centered approach and commitment to continuous learning have made him a trusted healthcare provider.",
     education: [
       {
         level: "Undergraduate",
@@ -100,7 +100,7 @@ export const doctors = [
   },
   {
     id: 3,
-    name: "Dr. Sarah Chen, Sp.OG",
+    name: "dr. Clara Evans, M.D",
     specialty: "Obstetrics & Gynecology",
     schedule: {
       Monday: "10:00 - 13:00",
@@ -116,7 +116,7 @@ export const doctors = [
     background:
       "Formal Education: National University of Singapore, Informal Education: Women's Health Specialist Training",
     poli: "Obstetrics & Gynecology",
-    bio: "Dr. Sarah Chen specializes in high-risk pregnancies and reproductive health. With 12 years of experience, she has successfully helped numerous women through their pregnancy journeys. She is known for her gentle approach and comprehensive care in women's health issues.",
+    bio: "dr. Sarah Chen specializes in high-risk pregnancies and reproductive health. With 12 years of experience, she has successfully helped numerous women through their pregnancy journeys. She is known for her gentle approach and comprehensive care in women's health issues.",
     education: [
       {
         level: "Undergraduate",
@@ -149,7 +149,7 @@ export const doctors = [
   },
   {
     id: 4,
-    name: "Dr. Rini Pratiwi, Sp.A",
+    name: "dr. Elena Martinez, M.D",
     specialty: "Pediatrics",
     schedule: {
       Monday: "08:00 - 11:00",
@@ -165,7 +165,7 @@ export const doctors = [
     background:
       "Formal Education: Universitas Gadjah Mada, Informal Education: Pediatric Emergency Care Training",
     poli: "Pediatrics",
-    bio: "Dr. Rini Pratiwi is a dedicated pediatrician with a special focus on newborn care and childhood development. Her 10 years of experience have made her a favorite among young patients and their parents. She is known for her warm personality and ability to make children feel comfortable during consultations.",
+    bio: "dr. Rini Pratiwi is a dedicated pediatrician with a special focus on newborn care and childhood development. Her 10 years of experience have made her a favorite among young patients and their parents. She is known for her warm personality and ability to make children feel comfortable during consultations.",
     education: [
       {
         level: "Undergraduate",
@@ -198,7 +198,7 @@ export const doctors = [
   },
   {
     id: 5,
-    name: "Dr. Michael Lee, Sp.JP",
+    name: "dr. Frederick Brown, D.D.S",
     specialty: "Cardiology",
     schedule: {
       Monday: "11:00 - 14:00",
@@ -214,7 +214,7 @@ export const doctors = [
     background:
       "Formal Education: Johns Hopkins University, Informal Education: Advanced Cardiac Life Support Training",
     poli: "Cardiology",
-    bio: "Dr. Michael Lee is a distinguished cardiologist with expertise in interventional cardiology. His 18 years of experience include numerous successful cardiac procedures and research in heart disease prevention. He is committed to providing the latest evidence-based treatments to his patients.",
+    bio: "dr. Michael Lee is a distinguished cardiologist with expertise in interventional cardiology. His 18 years of experience include numerous successful cardiac procedures and research in heart disease prevention. He is committed to providing the latest evidence-based treatments to his patients.",
     education: [
       {
         level: "Undergraduate",
@@ -247,7 +247,7 @@ export const doctors = [
   },
   {
     id: 6,
-    name: "Dr. Siti Rahmah, Sp.KJ",
+    name: "dr. Grace White, M.D",
     specialty: "Psychiatry",
     schedule: {
       Monday: "09:00 - 12:00",
@@ -263,7 +263,7 @@ export const doctors = [
     background:
       "Formal Education: Universitas Indonesia, Informal Education: Cognitive Behavioral Therapy Training",
     poli: "Psychiatry",
-    bio: "Dr. Siti Rahmah is a compassionate psychiatrist specializing in mood disorders and anxiety treatment. With 14 years of experience, she takes a holistic approach to mental health care. She is dedicated to reducing mental health stigma and promoting psychological well-being.",
+    bio: "dr. Siti Rahmah is a compassionate psychiatrist specializing in mood disorders and anxiety treatment. With 14 years of experience, she takes a holistic approach to mental health care. She is dedicated to reducing mental health stigma and promoting psychological well-being.",
     education: [
       {
         level: "Undergraduate",
@@ -296,7 +296,7 @@ export const doctors = [
   },
   {
     id: 7,
-    name: "Dr. James Wilson, Sp.THT-KL",
+    name: "dr. Henry Davis, M.P.H",
     specialty: "ENT",
     schedule: {
       Monday: "13:00 - 16:00",
@@ -312,7 +312,7 @@ export const doctors = [
     background:
       "Formal Education: University of Melbourne, Informal Education: Advanced ENT Surgery Training",
     poli: "ENT",
-    bio: "Dr. James Wilson is an experienced ENT specialist with expertise in both adult and pediatric cases. His 16 years of practice include advanced surgical procedures and innovative treatment approaches. He is particularly known for his work in hearing restoration and sinus surgery.",
+    bio: "dr. James Wilson is an experienced ENT specialist with expertise in both adult and pediatric cases. His 16 years of practice include advanced surgical procedures and innovative treatment approaches. He is particularly known for his work in hearing restoration and sinus surgery.",
     education: [
       {
         level: "Undergraduate",
@@ -345,7 +345,7 @@ export const doctors = [
   },
   {
     id: 8,
-    name: "Dr. Dewi Kusuma, Sp.M",
+    name: "dr. Isabelle Clark, D.O",
     specialty: "Ophthalmology",
     schedule: {
       Monday: "10:00 - 13:00",
@@ -361,7 +361,7 @@ export const doctors = [
     background:
       "Formal Education: Airlangga University, Informal Education: Advanced Cataract Surgery Training",
     poli: "Ophthalmology",
-    bio: "Dr. Dewi Kusuma is a skilled ophthalmologist specializing in cataract surgery and retinal disorders. With 13 years of experience, she has performed thousands of successful eye surgeries. She is passionate about preventing blindness and promoting eye health awareness.",
+    bio: "dr. Dewi Kusuma is a skilled ophthalmologist specializing in cataract surgery and retinal disorders. With 13 years of experience, she has performed thousands of successful eye surgeries. She is passionate about preventing blindness and promoting eye health awareness.",
     education: [
       {
         level: "Undergraduate",
@@ -394,7 +394,7 @@ export const doctors = [
   },
   {
     id: 9,
-    name: "Dr. Robert Kim, Sp.KK",
+    name: "dr. Jacob Wilson, Ph.D",
     specialty: "Dermatology",
     schedule: {
       Monday: "08:00 - 11:00",
@@ -410,7 +410,7 @@ export const doctors = [
     background:
       "Formal Education: Seoul National University, Informal Education: Advanced Cosmetic Dermatology Training",
     poli: "Dermatology",
-    bio: "Dr. Robert Kim is a board-certified dermatologist specializing in both medical and cosmetic dermatology. With 11 years of experience, he has expertise in treating various skin conditions and performing advanced cosmetic procedures. His approach combines clinical excellence with aesthetic sensibility.",
+    bio: "dr. Robert Kim is a board-certified dermatologist specializing in both medical and cosmetic dermatology. With 11 years of experience, he has expertise in treating various skin conditions and performing advanced cosmetic procedures. His approach combines clinical excellence with aesthetic sensibility.",
     education: [
       {
         level: "Undergraduate",
@@ -443,7 +443,7 @@ export const doctors = [
   },
   {
     id: 10,
-    name: "Dr. Ahmad Faisal, Sp.B",
+    name: "dr. Lucas Harris, M.D",
     specialty: "General Surgery",
     schedule: {
       Monday: "14:00 - 17:00",
@@ -459,7 +459,7 @@ export const doctors = [
     background:
       "Formal Education: Universitas Padjadjaran, Informal Education: Minimally Invasive Surgery Training",
     poli: "General Surgery",
-    bio: "Dr. Ahmad Faisal is a skilled general surgeon with expertise in minimally invasive procedures. Throughout his 15 years of practice, he has performed numerous successful surgeries and is known for his precise surgical technique and excellent patient outcomes.",
+    bio: "dr. Ahmad Faisal is a skilled general surgeon with expertise in minimally invasive procedures. Throughout his 15 years of practice, he has performed numerous successful surgeries and is known for his precise surgical technique and excellent patient outcomes.",
     education: [
       {
         level: "Undergraduate",
@@ -492,7 +492,7 @@ export const doctors = [
   },
   {
     id: 11,
-    name: "Dr. Maria Rodriguez, Sp.P",
+    name: "dr. Karen Taylor, D.V.M",
     specialty: "Pulmonology",
     schedule: {
       Monday: "09:00 - 12:00",
@@ -508,7 +508,7 @@ export const doctors = [
     background:
       "Formal Education: University of Barcelona, Informal Education: Advanced Respiratory Care Training",
     poli: "Pulmonology",
-    bio: "Dr. Maria Rodriguez is a dedicated pulmonologist with special interest in respiratory diseases and sleep disorders. Her 12 years of experience include managing complex respiratory conditions and implementing innovative treatment approaches for sleep apnea.",
+    bio: "dr. Maria Rodriguez is a dedicated pulmonologist with special interest in respiratory diseases and sleep disorders. Her 12 years of experience include managing complex respiratory conditions and implementing innovative treatment approaches for sleep apnea.",
     education: [
       {
         level: "Undergraduate",
@@ -541,7 +541,7 @@ export const doctors = [
   },
   {
     id: 12,
-    name: "Dr. Yuki Tanaka, Sp.S",
+    name: "dr. Maria Rodriguez, M.D., Ph.D",
     specialty: "Neurosurgery",
     schedule: {
       Monday: "13:00 - 16:00",
@@ -557,7 +557,7 @@ export const doctors = [
     background:
       "Formal Education: Tokyo University, Informal Education: Advanced Neurosurgical Techniques Training",
     poli: "Neurosurgery",
-    bio: "Dr. Yuki Tanaka is a highly skilled neurosurgeon specializing in complex brain and spine surgeries. With 17 years of experience, she has performed numerous successful procedures and is particularly known for her expertise in minimally invasive neurosurgical techniques.",
+    bio: "dr. Yuki Tanaka is a highly skilled neurosurgeon specializing in complex brain and spine surgeries. With 17 years of experience, she has performed numerous successful procedures and is particularly known for her expertise in minimally invasive neurosurgical techniques.",
     education: [
       {
         level: "Undergraduate",
@@ -590,7 +590,7 @@ export const doctors = [
   },
   {
     id: 13,
-    name: "Dr. Andi Wijaya, Sp.U",
+    name: "dr. Nathan Scott, D.C",
     specialty: "Urology",
     schedule: {
       Monday: "10:00 - 13:00",
@@ -606,7 +606,7 @@ export const doctors = [
     background:
       "Formal Education: Universitas Indonesia, Informal Education: Advanced Urological Surgery Training",
     poli: "Urology",
-    bio: "Dr. Andi Wijaya is an experienced urologist with expertise in both traditional and minimally invasive urological procedures. His 14 years of practice include extensive experience in treating various urological conditions and performing complex surgeries.",
+    bio: "dr. Andi Wijaya is an experienced urologist with expertise in both traditional and minimally invasive urological procedures. His 14 years of practice include extensive experience in treating various urological conditions and performing complex surgeries.",
     education: [
       {
         level: "Undergraduate",
@@ -639,7 +639,7 @@ export const doctors = [
   },
   {
     id: 14,
-    name: "Dr. Lisa Chen, Sp.PK",
+    name: "dr. Lisa Chen, Sp.PK",
     specialty: "Clinical Pathology",
     schedule: {
       Monday: "08:00 - 11:00",
@@ -655,7 +655,7 @@ export const doctors = [
     background:
       "Formal Education: National Taiwan University, Informal Education: Advanced Laboratory Medicine Training",
     poli: "Clinical Pathology",
-    bio: "Dr. Lisa Chen is a clinical pathologist with extensive experience in laboratory medicine and diagnostic testing. Over her 13 years of practice, she has developed expertise in molecular diagnostics and has contributed significantly to improving laboratory testing protocols.",
+    bio: "dr. Lisa Chen is a clinical pathologist with extensive experience in laboratory medicine and diagnostic testing. Over her 13 years of practice, she has developed expertise in molecular diagnostics and has contributed significantly to improving laboratory testing protocols.",
     education: [
       {
         level: "Undergraduate",
@@ -688,7 +688,7 @@ export const doctors = [
   },
   {
     id: 15,
-    name: "Dr. Emma Thompson, Sp.KFR",
+    name: "dr. Emma Thompson, Sp.KFR",
     specialty: "Physical Medicine",
     schedule: {
       Monday: "11:00 - 14:00",
@@ -704,7 +704,7 @@ export const doctors = [
     background:
       "Formal Education: University of Sydney, Informal Education: Advanced Rehabilitation Techniques Training",
     poli: "Physical Medicine and Rehabilitation",
-    bio: "Dr. Emma Thompson specializes in physical medicine and rehabilitation with a focus on sports medicine and post-injury recovery. Her 11 years of experience include working with athletes and developing comprehensive rehabilitation programs for various conditions.",
+    bio: "dr. Emma Thompson specializes in physical medicine and rehabilitation with a focus on sports medicine and post-injury recovery. Her 11 years of experience include working with athletes and developing comprehensive rehabilitation programs for various conditions.",
     education: [
       {
         level: "Undergraduate",
