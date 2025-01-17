@@ -145,7 +145,7 @@ export default function DoctorDetails({ params }) {
         </div>
         {/* Sticky Navigation */}
         <div className="col-span-3">
-          <nav className="sticky top-20  rounded-md space-y-2">
+          <nav className="sticky top-20 z-9  rounded-md space-y-2">
             {sections.map((section) => (
               <a
                 key={section.id}
