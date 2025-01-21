@@ -82,7 +82,7 @@ export default function Home() {
 
   return (
     <>
-      {showPopup && (
+      {/* {showPopup && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="bg-white space-y-8 px-40 py-20 rounded-2xl shadow-lg text-center">
             <div className="space-y-1">
@@ -99,7 +99,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-      )}
+      )} */}
       <div className="bg-primary">
         <div className="max-w-5xl m-auto p-4 flex items-center">
           <Link href="/" className="text-white ">
@@ -118,10 +118,17 @@ export default function Home() {
       />
       <div className="max-w-5xl m-auto p-4">
         {/* Filter Section */}
-        <div className="col-span-12 space-y-4 max-w-2xl m-auto -mt-40 bg-white p-10 rounded-md shadow-md border border-neutral-200 relative z-9">
-          <h1 className="mb-8 font-medium text-2xl tracking-tighter ">
-            Find a Doctor
-          </h1>
+        <div className="col-span-12 space-y-8 max-w-2xl m-auto -mt-40 bg-white p-10 rounded-md shadow-md border border-neutral-200 relative z-9">
+          <div className="flex justify-between items-center">
+            <div className="space-y-2">
+              <h1 className=" font-medium text-3xl tracking-tighter ">
+                Find a Doctor
+              </h1>
+              <p>Select below to get started</p>
+            </div>
+            <img src="/healthcare.gif" className="w-40" alt="" />
+          </div>
+          <hr />
           <div className="flex items-center gap-4">
             <div className="w-full">
               <label htmlFor="" className="mb-4 font-medium text-sm">
