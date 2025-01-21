@@ -86,78 +86,78 @@ export default function Home() {
           <spa className="text-gray-100">Find a Doctor</spa>
         </div>
       </div>
+      <img
+        className="w-full h-[500px] object-cover "
+        alt="hero Image"
+        src="/Hero Image.jpg"
+        width={1000}
+        height={400}
+      />
       <div className="max-w-5xl m-auto p-4">
         {/* Filter Section */}
-        <div className="grid grid-cols-12 py-10 gap-8 mb-10 items-center">
-          <div className="col-span-7 space-y-4">
-            <h1 className="mb-8 font-medium text-4xl tracking-tighter ">
-              Find a doctor at MurniCare Hospital
-            </h1>
-            <div className="flex items-center gap-4">
-              <div className="w-full">
-                <label htmlFor="" className="mb-4 font-medium text-sm">
-                  Choose hospital
-                </label>
-                <select
-                  name="branch"
-                  value={filters.branch}
-                  onChange={handleFilterChange}
-                  className="shadow minimal appearance-none border rounded text-sm w-full py-2 px-3 mt-2 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
-                >
-                  <option value="">All hospital</option>
-                  {branches.map((branch, index) => (
-                    <option key={index} value={branch}>
-                      {branch}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              <div className="w-full">
-                <label htmlFor="" className="mb-4 font-medium text-sm">
-                  Choose Specialty
-                </label>
-                <select
-                  name="specialty"
-                  value={filters.specialty}
-                  onChange={handleFilterChange}
-                  className="shadow border minimal round appearance-none rounded text-sm w-full py-2 px-3 mt-2 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
-                >
-                  <option value="">All Specialty</option>
-                  {specialtys.map((specialty, index) => (
-                    <option key={index} value={specialty}>
-                      {specialty}
-                    </option>
-                  ))}
-                </select>
-              </div>
+        <div className="col-span-12 space-y-4 max-w-2xl m-auto -mt-40 bg-white p-10 rounded-md shadow-md border border-neutral-200 relative z-9">
+          <h1 className="mb-8 font-medium text-2xl tracking-tighter ">
+            Find a Doctor
+          </h1>
+          <div className="flex items-center gap-4">
+            <div className="w-full">
+              <label htmlFor="" className="mb-4 font-medium text-sm">
+                Choose Hospital
+              </label>
+              <select
+                name="branch"
+                value={filters.branch}
+                onChange={handleFilterChange}
+                className="shadow minimal appearance-none border rounded text-sm w-full py-2 px-3 mt-2 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
+              >
+                <option value="">All hospital</option>
+                {branches.map((branch, index) => (
+                  <option key={index} value={branch}>
+                    {branch}
+                  </option>
+                ))}
+              </select>
             </div>
 
-            <div className="filter-item">
+            <div className="w-full">
               <label htmlFor="" className="mb-4 font-medium text-sm">
-                Search by name
+                Choose Specialty
               </label>
-              <input
-                type="text"
-                name="doctorName"
-                value={filters.doctorName}
+              <select
+                name="specialty"
+                value={filters.specialty}
                 onChange={handleFilterChange}
-                placeholder="Enter doctor's name"
-                className="shadow border round rounded mt-2 text-sm w-full py-2 px-3 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
-              />
+                className="shadow border minimal round appearance-none rounded text-sm w-full py-2 px-3 mt-2 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
+              >
+                <option value="">All Specialty</option>
+                {specialtys.map((specialty, index) => (
+                  <option key={index} value={specialty}>
+                    {specialty}
+                  </option>
+                ))}
+              </select>
             </div>
           </div>
-          <div className="col-span-5">
-            <Image
-              src="/hero-image.png"
-              width={10000}
-              height={300}
-              alt="Hero Image"
+
+          <div className="filter-item">
+            <label htmlFor="" className="mb-4 font-medium text-sm">
+              Search by Name
+            </label>
+            <input
+              type="text"
+              name="doctorName"
+              value={filters.doctorName}
+              onChange={handleFilterChange}
+              placeholder="Enter doctor's name"
+              className="shadow border round rounded mt-2 text-sm w-full py-2 px-3 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
             />
           </div>
         </div>
-        <hr />
-        <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-6">
+
+        <div className="mt-10 mb-2 font-medium">
+          Results ({filteredData.length})
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 mt-4 gap-6">
           {isNoData ? (
             <p className="text-center col-span-full text-gray-500">
               Dokter tidak ditemukan
