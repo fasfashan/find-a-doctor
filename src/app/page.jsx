@@ -6,6 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  const [showPopup, setShowPopup] = useState(true);
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
+
   // Extract unique branches and specialties from doctors data
   const branches = [...new Set(doctors.map((doctor) => doctor.branch))].sort();
   const specialtys = [
@@ -77,6 +82,24 @@ export default function Home() {
 
   return (
     <>
+      {showPopup && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="bg-white space-y-8 px-40 py-20 rounded-2xl shadow-lg text-center">
+            <div className="space-y-1">
+              <img src="/healthcare.gif" className="w-60 m-auto" alt="" />
+              <h2 className="text-3xl font-semibold ">
+                View Our Doctors’ Schedules
+              </h2>
+            </div>
+            <button
+              onClick={handleClosePopup}
+              className="px-4 py-2 text-2xl bg-primary text-white rounded"
+            >
+              Touch Here to Start
+            </button>
+          </div>
+        </div>
+      )}
       <div className="bg-primary">
         <div className="max-w-5xl m-auto p-4 flex items-center">
           <Link href="/" className="text-white ">
@@ -110,7 +133,7 @@ export default function Home() {
                 onChange={handleFilterChange}
                 className="shadow minimal appearance-none border rounded text-sm w-full py-2 px-3 mt-2 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
               >
-                <option value="">All hospital</option>
+                <option value="">All Hospital</option>
                 {branches.map((branch, index) => (
                   <option key={index} value={branch}>
                     {branch}
@@ -148,7 +171,7 @@ export default function Home() {
               name="doctorName"
               value={filters.doctorName}
               onChange={handleFilterChange}
-              placeholder="Enter doctor's name"
+              placeholder="Enter Doctor's Name"
               className="shadow border round rounded mt-2 text-sm w-full py-2 px-3 text-gray-700 leading-tight focus:outline-primary focus:shadow-outline"
             />
           </div>

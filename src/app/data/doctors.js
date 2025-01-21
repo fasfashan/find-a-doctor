@@ -14,10 +14,9 @@ export const doctors = [
     },
     branch: "Murni Hospital Semanan",
     photo: "/doctor1.jpg",
-    background:
-      "Formal Education: XYZ University, Informal Education: ABC Training",
+    background: "XYZ University",
     poli: "Neurology",
-    bio: "dr. Amanda Watson is a highly respected neurologist with over 15 years of experience in the field. She completed her medical degree at XYZ University and further specialized in neurology. dr. Watson is known for her compassionate care and dedication to her patients. She has published numerous research papers and is actively involved in various neurology conferences and workshops. In her free time, she enjoys reading medical journals and volunteering at local health camps.",
+    bio: "dr. Amelia Johnson, M.D. is a distinguished neurologist at Murni Hospital Semanan with extensive expertise in neurology, neurosurgery, and brain health. Having completed her undergraduate studies at XYZ University with a focus on Artificial Intelligence in 2000, followed by her neurology residency at ABC University in 2005, she brings over 15 years of specialized experience to her practice. Her outstanding contributions to the field were recognized with the Best Neurologist award from the National Medical Association in 2010. dr. Johnson maintains a comprehensive weekly schedule from Monday to Friday, specializing in cognitive disorders, neuroimaging, and neurogenetics. Her unique background in AI combined with neurology expertise allows her to offer cutting-edge approaches to neurological care.",
     education: [
       {
         level: "Undergraduate",
@@ -67,7 +66,7 @@ export const doctors = [
     background:
       "Formal Education: University of Indonesia, Informal Education: Singapore General Hospital Training",
     poli: "Internal Medicine",
-    bio: "dr. Budi Santoso is an experienced internist with a special interest in diabetes and cardiovascular diseases. With over 20 years of practice, he has helped countless patients manage chronic conditions effectively. His patient-centered approach and commitment to continuous learning have made him a trusted healthcare provider.",
+    bio: "dr. Benjamin Franklin, Ph.D. is a highly qualified internist practicing at Murni Hospital Kuningan. A graduate of the University of Indonesia's medical program in 1995, he completed his residency in Internal Medicine at the same institution in 2000. His additional training at Singapore General Hospital has enhanced his expertise in diabetes management, cardiovascular health, and preventive medicine. Recognized for his excellence in patient care by the Indonesian Medical Association in 2015, dr. Franklin maintains a busy schedule six days a week, demonstrating his commitment to patient accessibility. He has developed particular expertise in geriatric care and endocrinology, while actively participating in clinical research to advance the field of internal medicine.",
     education: [
       {
         level: "Undergraduate",
@@ -116,7 +115,7 @@ export const doctors = [
     background:
       "Formal Education: National University of Singapore, Informal Education: Women's Health Specialist Training",
     poli: "Obstetrics & Gynecology",
-    bio: "dr. Sarah Chen specializes in high-risk pregnancies and reproductive health. With 12 years of experience, she has successfully helped numerous women through their pregnancy journeys. She is known for her gentle approach and comprehensive care in women's health issues.",
+    bio: "dr. Clara Evans, M.D. is a dedicated OB-GYN specialist at Murni Hospital Semanan. After graduating from the National University of Singapore in 2005, she completed her residency at Singapore General Hospital in 2010, specializing in Obstetrics & Gynecology. Her comprehensive women's health specialist training has made her particularly adept at handling high-risk pregnancies and fertility treatments. Her expertise was recognized with the Women's Health Excellence Award from the Asian Medical Society in 2018. dr. Evans maintains a flexible schedule six days a week, specializing in reproductive medicine, gynecologic surgery, and comprehensive prenatal care. Her commitment to women's health is evident in her focused approach to both routine and complex obstetric and gynecological cases.",
     education: [
       {
         level: "Undergraduate",
@@ -165,7 +164,7 @@ export const doctors = [
     background:
       "Formal Education: Universitas Gadjah Mada, Informal Education: Pediatric Emergency Care Training",
     poli: "Pediatrics",
-    bio: "dr. Rini Pratiwi is a dedicated pediatrician with a special focus on newborn care and childhood development. Her 10 years of experience have made her a favorite among young patients and their parents. She is known for her warm personality and ability to make children feel comfortable during consultations.",
+    bio: "dr. Elena Martinez, M.D. is a skilled pediatrician at Murni Hospital Semanan, with comprehensive training from Universitas Gadjah Mada, where she completed both her medical degree in 2008 and pediatric residency in 2013. Her additional certification in Pediatric Emergency Care has enhanced her expertise in acute pediatric care. Recognized as the Best Pediatric Care Provider by the Indonesian Pediatric Society in 2019, she specializes in newborn care, child development, and pediatric nutrition. dr. Martinez maintains a six-day weekly schedule, offering both morning and afternoon slots to accommodate families' needs. Her particular interests in behavioral pediatrics and adolescent medicine make her well-equipped to handle the full spectrum of pediatric care, from newborn health to teenage development.",
     education: [
       {
         level: "Undergraduate",
@@ -214,7 +213,7 @@ export const doctors = [
     background:
       "Formal Education: Johns Hopkins University, Informal Education: Advanced Cardiac Life Support Training",
     poli: "Cardiology",
-    bio: "dr. Michael Lee is a distinguished cardiologist with expertise in interventional cardiology. His 18 years of experience include numerous successful cardiac procedures and research in heart disease prevention. He is committed to providing the latest evidence-based treatments to his patients.",
+    bio: "dr. Frederick Brown, D.D.S. is a distinguished cardiologist at Murni Hospital Semanan, with premier education from Johns Hopkins University (1998) and specialized cardiac training from Mayo Clinic (2003). His Advanced Cardiac Life Support certification complements his expertise in interventional cardiology and heart disease prevention. Recipient of the Cardiovascular Excellence Award from the American Heart Association in 2016, dr. Brown has established himself as a leader in cardiac care. He maintains a five-day schedule, specializing in interventional procedures, cardiac imaging, and hypertension management. His ongoing involvement in clinical research and cardiac rehabilitation programs demonstrates his commitment to advancing cardiovascular medicine.",
     education: [
       {
         level: "Undergraduate",
@@ -263,7 +262,7 @@ export const doctors = [
     background:
       "Formal Education: Universitas Indonesia, Informal Education: Cognitive Behavioral Therapy Training",
     poli: "Psychiatry",
-    bio: "dr. Siti Rahmah is a compassionate psychiatrist specializing in mood disorders and anxiety treatment. With 14 years of experience, she takes a holistic approach to mental health care. She is dedicated to reducing mental health stigma and promoting psychological well-being.",
+    bio: "dr. Grace White, M.D. serves as a psychiatrist at Murni Hospital Kuningan, bringing specialized expertise in mood disorders and anxiety treatment. A graduate of Universitas Indonesia's medical program in 2003, she completed her psychiatric residency at the same institution in 2008. Her additional certification in Cognitive Behavioral Therapy has enhanced her therapeutic approach. Recognized with the Mental Health Advocacy Award from the Indonesian Psychiatric Association in 2017, she maintains a six-day practice schedule offering both morning and afternoon appointments. dr. White specializes in psychotherapy and child psychiatry, with a particular focus on cognitive behavioral therapy. Her commitment to mental health advocacy has made her a respected voice in reducing mental health stigma.",
     education: [
       {
         level: "Undergraduate",
@@ -312,7 +311,7 @@ export const doctors = [
     background:
       "Formal Education: University of Melbourne, Informal Education: Advanced ENT Surgery Training",
     poli: "ENT",
-    bio: "dr. James Wilson is an experienced ENT specialist with expertise in both adult and pediatric cases. His 16 years of practice include advanced surgical procedures and innovative treatment approaches. He is particularly known for his work in hearing restoration and sinus surgery.",
+    bio: "dr. Henry Davis, M.P.H. is a highly skilled ENT specialist at Murni Hospital Semanan. A graduate of the University of Melbourne (2001), he completed his otolaryngology residency at Royal Melbourne Hospital in 2006. His advanced ENT surgery training has made him particularly adept at complex procedures. Recognized as an Outstanding ENT Surgeon by the Australian Society of Otolaryngology in 2014, he maintains a six-day practice schedule. dr. Davis specializes in hearing disorders, sinus surgery, and voice disorders, with additional expertise in pediatric ENT and sleep apnea treatment. His work with acoustic neuroma has contributed significantly to the field of otolaryngology.",
     education: [
       {
         level: "Undergraduate",
@@ -361,7 +360,7 @@ export const doctors = [
     background:
       "Formal Education: Airlangga University, Informal Education: Advanced Cataract Surgery Training",
     poli: "Ophthalmology",
-    bio: "dr. Dewi Kusuma is a skilled ophthalmologist specializing in cataract surgery and retinal disorders. With 13 years of experience, she has performed thousands of successful eye surgeries. She is passionate about preventing blindness and promoting eye health awareness.",
+    bio: "dr. Isabelle Clark, D.O. is an accomplished ophthalmologist at Murni Hospital Kuningan. A graduate of Airlangga University's medical program in 2004, she completed her ophthalmology residency at the same institution in 2009. Her advanced training in cataract surgery has made her a leading specialist in surgical eye care. Named Best Eye Care Specialist by the Indonesian Ophthalmological Society in 2018, she provides comprehensive eye care services six days a week. dr. Clark's expertise spans cataract surgery, retinal disorders, and glaucoma treatment, with additional focus on pediatric ophthalmology and refractive surgery. Her commitment to eye disease prevention and public education has made her a valued resource in the community.",
     education: [
       {
         level: "Undergraduate",
@@ -410,7 +409,7 @@ export const doctors = [
     background:
       "Formal Education: Seoul National University, Informal Education: Advanced Cosmetic Dermatology Training",
     poli: "Dermatology",
-    bio: "dr. Robert Kim is a board-certified dermatologist specializing in both medical and cosmetic dermatology. With 11 years of experience, he has expertise in treating various skin conditions and performing advanced cosmetic procedures. His approach combines clinical excellence with aesthetic sensibility.",
+    bio: "dr. Jacob Wilson, Ph.D. is a board-certified dermatologist at Murni Hospital Semanan. With his medical education from Seoul National University (2006) and dermatology residency completed at Seoul National University Hospital (2011), he brings extensive expertise in both medical and cosmetic dermatology. His advanced training in cosmetic dermatology has equipped him with cutting-edge skills in aesthetic procedures. Recipient of the Excellence in Dermatology Research award from the Asian Dermatological Association in 2017, dr. Wilson maintains a six-day practice schedule. He specializes in medical dermatology, cosmetic procedures, and laser therapy, with particular expertise in skin cancer detection and treatment, acne management, and anti-aging medicine.",
     education: [
       {
         level: "Undergraduate",
@@ -459,7 +458,7 @@ export const doctors = [
     background:
       "Formal Education: Universitas Padjadjaran, Informal Education: Minimally Invasive Surgery Training",
     poli: "General Surgery",
-    bio: "dr. Ahmad Faisal is a skilled general surgeon with expertise in minimally invasive procedures. Throughout his 15 years of practice, he has performed numerous successful surgeries and is known for his precise surgical technique and excellent patient outcomes.",
+    bio: "dr. Lucas Harris, M.D. is a distinguished general surgeon at Murni Hospital Semanan. A graduate of Universitas Padjadjaran's medical program in 2002, he completed his surgical residency at the same institution in 2007. His specialized training in minimally invasive surgery has made him a pioneer in advanced surgical techniques. Awarded the Surgical Excellence Award by the Indonesian Society of Surgeons in 2016, dr. Harris maintains a six-day practice schedule. He specializes in minimally invasive and laparoscopic procedures, with additional expertise in trauma surgery, surgical oncology, hernia repair, and emergency surgery. His commitment to implementing innovative surgical techniques has significantly improved patient outcomes.",
     education: [
       {
         level: "Undergraduate",
@@ -508,7 +507,7 @@ export const doctors = [
     background:
       "Formal Education: University of Barcelona, Informal Education: Advanced Respiratory Care Training",
     poli: "Pulmonology",
-    bio: "dr. Maria Rodriguez is a dedicated pulmonologist with special interest in respiratory diseases and sleep disorders. Her 12 years of experience include managing complex respiratory conditions and implementing innovative treatment approaches for sleep apnea.",
+    bio: "dr. Karen Taylor, D.V.M. is a specialized pulmonologist at Murni Hospital Kuningan. A graduate of the University of Barcelona's medical program in 2005, she completed her pulmonology residency at Hospital Clinic Barcelona in 2010. Her advanced respiratory care training has enhanced her expertise in managing complex respiratory conditions. Recognized for Research Excellence in Pulmonology by the European Respiratory Society in 2018, she maintains a five-day practice schedule. dr. Taylor specializes in respiratory diseases and sleep medicine, with particular expertise in asthma management, COPD treatment, and pulmonary rehabilitation. Her work in interventional pulmonology has contributed to advancing treatment options for respiratory conditions.",
     education: [
       {
         level: "Undergraduate",
@@ -557,7 +556,7 @@ export const doctors = [
     background:
       "Formal Education: Tokyo University, Informal Education: Advanced Neurosurgical Techniques Training",
     poli: "Neurosurgery",
-    bio: "dr. Yuki Tanaka is a highly skilled neurosurgeon specializing in complex brain and spine surgeries. With 17 years of experience, she has performed numerous successful procedures and is particularly known for her expertise in minimally invasive neurosurgical techniques.",
+    bio: "dr. Maria Rodriguez, M.D., Ph.D. is a highly accomplished neurosurgeon at Murni Hospital Semanan. A graduate of Tokyo University's medical program in 2000, she completed her neurosurgery residency at Tokyo University Hospital in 2005. Her advanced training in neurosurgical techniques has made her a pioneer in minimally invasive brain and spine procedures. Awarded the Distinguished Neurosurgeon Award by the Asian Congress of Neurological Surgeons in 2015, she maintains a six-day practice schedule. dr. Rodriguez specializes in complex brain and spine surgeries, with particular expertise in neuro-oncology, cerebrovascular surgery, and pediatric neurosurgery. Her commitment to advancing minimally invasive techniques has significantly improved patient outcomes in neurosurgical procedures.",
     education: [
       {
         level: "Undergraduate",
@@ -606,7 +605,7 @@ export const doctors = [
     background:
       "Formal Education: Universitas Indonesia, Informal Education: Advanced Urological Surgery Training",
     poli: "Urology",
-    bio: "dr. Andi Wijaya is an experienced urologist with expertise in both traditional and minimally invasive urological procedures. His 14 years of practice include extensive experience in treating various urological conditions and performing complex surgeries.",
+    bio: "dr. Nathan Scott, D.C. is a skilled urologist at Murni Hospital Semanan. After completing his medical degree at Universitas Indonesia in 2003, he pursued his urology residency at the same institution, graduating in 2008. His advanced training in urological surgery has equipped him with expertise in both traditional and minimally invasive procedures. Named Best Urological Surgeon by the Indonesian Urological Association in 2019, he maintains a six-day practice schedule. dr. Scott specializes in urological surgery and prostate health, with particular expertise in treating kidney stones, male infertility, and bladder disorders. His commitment to minimally invasive urology has revolutionized treatment approaches for many urological conditions.",
     education: [
       {
         level: "Undergraduate",
@@ -655,7 +654,7 @@ export const doctors = [
     background:
       "Formal Education: National Taiwan University, Informal Education: Advanced Laboratory Medicine Training",
     poli: "Clinical Pathology",
-    bio: "dr. Lisa Chen is a clinical pathologist with extensive experience in laboratory medicine and diagnostic testing. Over her 13 years of practice, she has developed expertise in molecular diagnostics and has contributed significantly to improving laboratory testing protocols.",
+    bio: "dr. Lisa Chen, Sp.PK. is a distinguished clinical pathologist at Murni Hospital Kuningan. A graduate of National Taiwan University's medical program in 2004, she completed her clinical pathology residency at National Taiwan University Hospital in 2009. Her advanced training in laboratory medicine has made her a leader in diagnostic innovation. Recognized for Excellence in Laboratory Medicine by the Asian Society of Clinical Pathology in 2017, she maintains a five-day practice schedule. dr. Chen specializes in molecular diagnostics and clinical chemistry, with particular expertise in hematology and laboratory management. Her commitment to quality assurance and diagnostic innovation has significantly improved laboratory testing standards.",
     education: [
       {
         level: "Undergraduate",
@@ -704,7 +703,7 @@ export const doctors = [
     background:
       "Formal Education: University of Sydney, Informal Education: Advanced Rehabilitation Techniques Training",
     poli: "Physical Medicine and Rehabilitation",
-    bio: "dr. Emma Thompson specializes in physical medicine and rehabilitation with a focus on sports medicine and post-injury recovery. Her 11 years of experience include working with athletes and developing comprehensive rehabilitation programs for various conditions.",
+    bio: "Dr. Emma Thompson, Sp.KFR, is a specialist in Physical Medicine and Rehabilitation with a focus on Sports Medicine and Post-injury Recovery. She graduated from the University of Sydney in 2006 and completed her residency in Physical Medicine and Rehabilitation at Royal Prince Alfred Hospital in 2011. Dr. Thompson has 11 years of experience in the field, including working with athletes and developing comprehensive rehabilitation programs for various conditions. She has received the 'Outstanding Rehabilitation Specialist' award from the Australian Rehabilitation Association in 2020.",
     education: [
       {
         level: "Undergraduate",
