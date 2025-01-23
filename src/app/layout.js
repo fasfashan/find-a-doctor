@@ -37,10 +37,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={` scroll-smooth ${inter.variable} antialiased`}>
+      <body
+        className={`scroll-smooth ${inter.variable} antialiased flex flex-col min-h-screen`}
+      >
         <Navbar />
-        {children}
-        <Footer />
+        <main className="flex-grow">{children}</main>
+        <div className="mt-auto">
+          <Footer />
+        </div>
       </body>
     </html>
   );
